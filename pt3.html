@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas Simples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f2f2f2;
+    }
+    #question {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 30px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 24px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+    }
+
+    .voltar{
+      background-color: gray; /* Green */
+      border: none;
+      color: black;
+      padding: 20px 90px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 24px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+      position: relative;
+      
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+      color: white;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+<h1 id="question">Que dia?</h1>
+<a href="pt4.html"><button id="yesBtn" class="btn" onclick="changeQuestion('yes')">Sexta</button></a>
+<a href="pt4.html"><button id="yesBtn" class="btn" onclick="changeQuestion('yes')">Sabado</button></a>
+<a href="pt4.html"><button id="yesBtn" class="btn" onclick="changeQuestion('yes')">Domingo</button></a>
+
+<a href="pt2.html"><button id="yesBtn" class="voltar" onclick="changeQuestion('yes')">Voltar</button></a>
+
+
+
+
+</body>
+</html>
